@@ -29,7 +29,7 @@ public class Circle extends Figure{
 
     @Override
     public Point leftmostPoint() {
-        return new Point(center.getX()-radius, center.getY()-radius);
+                return new Point(center.getX()-radius, center.getY());
     }
 }
 
